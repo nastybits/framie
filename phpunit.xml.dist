@@ -10,13 +10,16 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name=":vendor Test Suite">
+        <testsuite name="nastybits Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>
     <filter>
         <whitelist>
             <directory suffix=".php">src/</directory>
+            <exclude>
+                <directory suffix=".php">src/views</directory>
+            </exclude>
         </whitelist>
     </filter>
     <logging>

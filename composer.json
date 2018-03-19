@@ -1,36 +1,36 @@
 {
-    "name": ":vendor/:package_name",
+    "name": "nastybits/framie",
     "type": "library",
-    "description": ":package_description",
+    "description": "Fast site template",
     "keywords": [
-        ":vendor",
-        ":package_name"
+        "nastybits",
+        "framie"
     ],
-    "homepage": "https://github.com/:vendor/:package_name",
+    "homepage": "https://github.com/nastybits/framie",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": ":author_email",
-            "homepage": ":author_website",
+            "name": "Podosenov Dmitry",
+            "email": "screamie@yandex.ru",
+            "homepage": "http://nastybits.ru",
             "role": "Developer"
         }
     ],
     "require": {
-        "php" : "~5.6|~7.0"
+        "php" : ">=7.0"
     },
     "require-dev": {
-        "phpunit/phpunit" : ">=5.4.3",
+        "phpunit/phpunit": "^6.5",
         "squizlabs/php_codesniffer": "^2.3"
     },
     "autoload": {
         "psr-4": {
-            ":vendor\\:package_name\\": "src"
+            "nastybits\\framie\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            ":vendor\\:package_name\\": "tests"
+            "nastybits\\framie\\": "tests"
         }
     },
     "scripts": {
