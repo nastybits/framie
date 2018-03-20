@@ -1,12 +1,10 @@
 build
 composer.lock
 vendor
+runtime
 
 # ignore PhpStorm config folder
 .idea
-
-# ignore log files
-/runtime/*
 
 # netbeans project files
 nbproject
