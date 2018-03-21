@@ -7,8 +7,9 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what
-PSRs you support to avoid any confusion with users and contributors.
+================================
+####WARNING! Do not use this application. It was created for the purpose of training!
+=================================
 
 ## Structure
 
@@ -21,6 +22,9 @@ tests/
 vendor/
 ```
 
+================================
+####WARNING! Do not use this application. It was created for the purpose of training!
+=================================
 
 ## Install
 
@@ -30,12 +34,20 @@ Via Composer
 $ composer require nastybits/framie
 ```
 
+================================
+####WARNING! Do not use this application. It was created for the purpose of training!
+=================================
+
 ## Usage
 
 ``` php
 $app = new nastybits\framie\base\Framie::instance($config);
 $app->run();
 ```
+
+================================
+####WARNING! Do not use this application. It was created for the purpose of training!
+=================================
 
 ## Change log
 
