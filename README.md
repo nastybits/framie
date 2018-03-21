@@ -7,9 +7,7 @@
 [![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
-================================
-####WARNING! Do not use this application. It was created for the purpose of training!
-=================================
+#### WARNING! Do not use this application. It was created for the purpose of training!
 
 ## Structure
 
@@ -22,9 +20,8 @@ tests/
 vendor/
 ```
 
-================================
-####WARNING! Do not use this application. It was created for the purpose of training!
-=================================
+
+#### WARNING! Do not use this application. It was created for the purpose of training!
 
 ## Install
 
@@ -34,9 +31,7 @@ Via Composer
 $ composer require nastybits/framie
 ```
 
-================================
-####WARNING! Do not use this application. It was created for the purpose of training!
-=================================
+#### WARNING! Do not use this application. It was created for the purpose of training!
 
 ## Usage
 
@@ -45,9 +40,7 @@ $app = new nastybits\framie\base\Framie::instance($config);
 $app->run();
 ```
 
-================================
-####WARNING! Do not use this application. It was created for the purpose of training!
-=================================
+#### WARNING! Do not use this application. It was created for the purpose of training!
 
 ## Change log
 
